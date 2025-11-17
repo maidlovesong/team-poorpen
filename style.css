@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: #f7f7f7;
+    color: #333;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(135deg, #4e73df, #6f42c1);
+    color: white;
+    padding: 40px 10%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: #ffeb3b;
+}
+
+/* PROFILE SECTIONS */
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 10%;
+    background: white;
+    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.profile img {
+    width: 200px;
+    border-radius: 100%;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.profile-text h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.profile-text ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.profile-text ul li {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #4e73df;
+    color: white;
+    margin-top: 40px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .profile {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+    }
+}
